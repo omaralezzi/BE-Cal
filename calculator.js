@@ -10,8 +10,9 @@ app.post('/', (req, res) => {
     let num1 = parseInt(req.body.num1);
     let num2 = parseInt(req.body.num2);
     let result = num1 + num2;
-    // var operator = req.body.operator;
-    // var result = 0;
+    // next version
+    // let operator = req.body.operator;
+    // let result = 0;
     // if (operator == '+') {
     //     result = num1 + num2;
     // } else if (operator == '-') {
